@@ -6,7 +6,7 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
 
 1. Gloss inconsistency: many many cases of “wanna” changed into “want to”; I was wondering if to some extent childes-db was looking at stem (or minor bug in their code)
 
-2.Childes-db ‘ s way of handling repetition
+2. Childes-db ‘ s way of handling repetition
 (1) my [/] my paper (they treated it as 3 tokens with the gloss being “my my paper”
 (2) Childes-db ‘s way of handling “explanations
 
