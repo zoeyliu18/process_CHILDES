@@ -4,11 +4,11 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
 
 **Notes on in-house data generation**
 
-1. Gloss inconsistency: many many cases of “wanna” changed into “want to”; I was wondering if to some extent childes-db was looking at stem (or minor bug in their code)
+# Gloss inconsistency: many many cases of “wanna” changed into “want to”; I was wondering if to some extent childes-db was looking at stem (or minor bug in their code)
 
-2. Childes-db ‘ s way of handling repetition
-(1) my [/] my paper (they treated it as 3 tokens with the gloss being “my my paper”
-(2) Childes-db ‘s way of handling “explanations
+# Childes-db ‘ s way of handling repetition
+## my [/] my paper (they treated it as 3 tokens with the gloss being “my my paper”
+## Childes-db ‘s way of handling “explanations
 
 3. There’s no specific documentation of how cases such as “<that> dat book” should be treated
 (1) Therefore this potentially leads to different estimation of number of tokens
