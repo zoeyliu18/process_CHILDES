@@ -24,7 +24,7 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
 1. POS information in childes-db is not complete; this was handled in our data generation process as well
 
 1. Annotation errors (some examples)
-   1. gloss: what else is on there ? <br/>
-      stem: what else be&3S on there <br/>
-      pos: pro:int post aux prep <br/>
+   1. gloss: what **else** is on there ? <br/>
+      stem: what **else** be&3S on there <br/>
+      pos: pro:int **post** aux prep n <br/>
       dependenc relations: 1|0|INCROOT **2|1|PUNCT** 3|2|INCROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
