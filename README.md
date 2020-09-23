@@ -49,4 +49,4 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
    1. Speaker name + Speaker code + Speaker role (e.g. Adam CHI Target_Child); separated by space
    1. Child gender + age + type (e.g. male 27 TD); separated by space
 
-1. **gloss not matched yet (see notes above); but does not necessarily affect current work on negation per se **
+1. **gloss not matched yet (see notes above); but does not necessarily affect current work on negation per se**
