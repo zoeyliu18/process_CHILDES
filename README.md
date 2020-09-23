@@ -29,3 +29,7 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
       stem: ```what``` **else** ```be&3S on there``` <br/>
       pos: ```pro:int``` **post** ```aux prep n``` <br/>
       dependenc relations: ```1|0|INCROOT``` **2|1|PUNCT** ```3|2|INCROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT```
+   1. gloss: ```does your writing look like his ?``` <br/>
+      stem: ```do&3S your write-PRESP look like his``` <br/>
+      pos: ```mod det:poss n:gerund v conj det:poss``` <br/>
+      dependency relations: ```1|4|AUX 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET``` **7|5|POBJ**
