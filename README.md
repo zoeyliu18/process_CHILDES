@@ -33,3 +33,4 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
       stem: ```do&3S your write-PRESP look like his``` <br/>
       pos: ```mod det:poss n:gerund v conj det:poss``` <br/>
       dependency relations: ```1|4|AUX 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET``` **7|5|POBJ**
+   1. more dependency relations than the number of tokens
