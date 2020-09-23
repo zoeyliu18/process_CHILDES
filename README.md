@@ -34,3 +34,19 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
       pos: ```mod det:poss n:gerund v conj det:poss``` <br/>
       dependency relations: ```1|4|AUX 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET``` **7|5|POBJ**
    1. more dependency relations than the number of tokens
+
+## Notes on CoNLL-U format file generation 
+
+1. **format follows the 10 column tab-delimited format of Universal Dependencies**
+   1. ID: Word index
+   1. FORM: Word form or punctuation symbol. **currently, it is lemma based on tokenization from CHILDES**
+   1. lemma: **currently it's the same as FORM; except for cases with n't (not as form, n't as lemma for ease of identification(**
+   1. POS
+   1. Left empty
+   1. FEATS: empty
+   1. HEAD: index of syntactic head
+   1. DEPREL: dependency relation with the syntactic head
+   1. Speaker name + Speaker code + Speaker role (e.g. Adam CHI Target_Child); separated by space
+   1. Child gender + age + type (e.g. male 27 TD); separated by space
+
+1. **gloss not matched yet (see notes above); but does not necessarily affect current work on negation per se **
