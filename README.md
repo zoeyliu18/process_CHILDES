@@ -37,6 +37,10 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
 
 ## Notes on CoNLL-U format file generation 
 
+1. **Each sentences starts with two lines of additional information**
+   1. file name + speaker name ```### 020304.cha Adam``` (for comparison to original .cha file)
+   1. utterance order + gloss ```1 play checkers .```
+   
 1. **format follows the 10 column tab-delimited format of Universal Dependencies**
    1. ID: Word index
    1. FORM: Word form or punctuation symbol. **currently, it is lemma based on tokenization from CHILDES**
