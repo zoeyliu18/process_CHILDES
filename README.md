@@ -55,5 +55,7 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
 
 1. **gloss not matched yet (see notes above); but does not necessarily affect current work on negation per se**
 
+1. Manually added target_child_sex in 020010.cha and 020324.cha in Bloom/Peter
+
 
 ## Eventually train a parser and annotate the rest of the data (?) ##
