@@ -33,6 +33,10 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
       stem: ```do&3S your write-PRESP look like his``` <br/>
       pos: ```mod det:poss n:gerund v conj det:poss``` <br/>
       dependency relations: ```1|4|AUX 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET``` **7|5|POBJ**
+   1. gloss: ```⌊come on , let's go→⌋```
+      stem: ```come on cm let~us go```
+      pos: ```v adv cm v~pro:obj v```
+      dependency relations: ```1|0|ROOT 2|1|JCT 3|1|LP 4|1|ENUM 5|4|OBJ 6|1|PUNCT``` (Sprott/01Goldilocks.cha)
    1. more dependency relations than the number of tokens
 
 1. **Manually added target_child_sex in 020010.cha and 020324.cha in Bloom/Peter**
