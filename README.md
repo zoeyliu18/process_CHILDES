@@ -35,6 +35,12 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
       dependency relations: ```1|4|AUX 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|DET``` **7|5|POBJ**
    1. more dependency relations than the number of tokens
 
+1. **Manually added target_child_sex in 020010.cha and 020324.cha in Bloom/Peter**
+
+1. **Lacking morphosyntactic and dependency annotation in 2014-Indiff folder in Gelman corpus**
+
+1. **⌈nay , nay , nay , nay , nay⌉ (Sprott/01Goldilocks.cha)---- What do?**
+
 ## Notes on CoNLL-U format file generation 
 
 1. **Each sentences starts with two lines of additional information**
@@ -55,9 +61,7 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
 
 1. **gloss not matched yet (see notes above); but does not necessarily affect current work on negation per se**
 
-1. Manually added target_child_sex in 020010.cha and 020324.cha in Bloom/Peter
 
-1. Lacking morphosyntactic and dependency annotation in 2014-Indiff folder in Gelman corpus
 
 
 ## Eventually train a parser and annotate the rest of the data (?) ##
