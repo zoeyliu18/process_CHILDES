@@ -45,6 +45,8 @@ This repo contains scripts to process CHILDES data, with POS and syntactic depen
 
 1. **⌈nay , nay , nay , nay , nay⌉ (Sprott/01Goldilocks.cha)---- What do?**
 
+1. **dependency relation between auxiliaries and head verb
+
 ## Notes on CoNLL-U format file generation 
 
 1. **Each sentences starts with two lines of additional information**
